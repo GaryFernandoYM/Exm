@@ -1,0 +1,1 @@
+server:  port: 7070spring:  application:    name: config-server  cloud:    config:      server:        git:          uri: https://github.com/GaryFernandoYM/Practice-DAD.git          search-paths: config-data          username:          password:          default-label: registry-server  security:    user:      name: root      password: s3cr3t
